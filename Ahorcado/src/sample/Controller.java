@@ -60,6 +60,8 @@ public class Controller {
         }
     }
 
+
+
     public void pintarCuerpo(){
         error++;
         if (error>0){

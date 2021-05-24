@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Ahorcado/Ahorcado.iml" filepath="$PROJECT_DIR$/Ahorcado/Ahorcado.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MegaPaint/MegaPaint.iml" filepath="$PROJECT_DIR$/MegaPaint/MegaPaint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/TAP.iml" filepath="$PROJECT_DIR$/.idea/TAP.iml" />
+    </modules>
+  </component>
+</project>

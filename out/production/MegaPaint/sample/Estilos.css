@@ -1,0 +1,30 @@
+.b1{
+-fx-background-image: url("./Img/1.png");
+-fx-background-radius: 20px;
+-fx-background-size: cover;
+}
+.b2{
+-fx-background-image: url("./Img/2.png");
+-fx-background-radius: 20px;
+-fx-background-size: cover;
+}
+.b3{
+-fx-background-image: url("./Img/3.png");
+-fx-background-radius: 20px;
+-fx-background-size: cover;
+}
+.bguardar{
+-fx-background-image: url("./Img/guardar.png");
+-fx-background-radius: 20px;
+-fx-background-size: cover;
+}
+.bborrar{
+-fx-background-image: url("./Img/borrador.png");
+-fx-background-radius: 20px;
+-fx-background-size: cover;
+}
+.bpincel{
+-fx-background-image: url("./Img/pincel.png");
+-fx-background-radius: 20px;
+-fx-background-size: cover;
+}

@@ -29,7 +29,7 @@ public class Controller {
 
     @FXML protected void initialize(){
         context= lienzo.getGraphicsContext2D();
-        comboOpciones.getItems().addAll("Cuadricula","Ajedrez","Estrella","Estrella Doble","Estrella Tapiz");
+        comboOpciones.getItems().addAll("Cuadricula","Ajedrez","Estrella","Estrella Doble","Estrella Tapiz","Circulos");
     }
 
     public void dibujar(int valor){
@@ -173,6 +173,28 @@ public class Controller {
             }
 
 
+
+
+        }
+
+
+        if(comboOpciones.getSelectionModel().getSelectedIndex()==5){
+
+            context.strokeLine(0,lienzo.getHeight()/2,lienzo.getWidth(),lienzo.getHeight()/2);
+            context.strokeLine(lienzo.getWidth()/2,0,lienzo.getWidth()/2,lienzo.getHeight());
+
+            int mitadAncho = (int) lienzo.getWidth()/2;
+            int mitadAlto = (int) lienzo.getHeight()/2;
+            context.strokeOval((lienzo.getWidth()/2)-50,(lienzo.getHeight()/2)-50,100,100);
+            double division = (double) (100*(Math.PI))/valor;
+
+            for (int x=0;x<valor;x++){
+
+
+                for (int y=0;y<x;y++){
+                    context.strokeOval(x*division,y*division,200,200);
+                }
+            }
 
 
         }
